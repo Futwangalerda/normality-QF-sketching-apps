@@ -1,1 +1,1 @@
-# inference_sketch_PCA
+# normality-QF-sketching-apps
