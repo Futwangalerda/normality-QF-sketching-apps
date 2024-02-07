@@ -12,6 +12,7 @@ library(tidyverse)
 library(MASS)
 setwd('C:/Users/ldwan/Desktop/test111111')
 
+### NYCflight Dataset
 flt<-flights %>% na.omit() #%>% filter(10<= month & month<=12)
 head(flt)
 A <- merge(flt, weather)
