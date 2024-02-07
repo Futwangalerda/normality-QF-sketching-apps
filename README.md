@@ -1,6 +1,6 @@
 # normality-QF-sketching-apps
 
-Code to reproduce the results from the paper "Inference in Randomized Least Squares and PCA via Normality of Quadratic Forms" by L. Wang, Z. Zhang and  E. Dobriban. [arxiv](arxiv)
+Code to reproduce the results from the paper "Inference in Randomized Least Squares and PCA via Normality of Quadratic Forms" by L. Wang, Z. Zhang and  E. Dobriban, [arxiv](arxiv)
 
 The methods/ folder includes all functions impleting the methods and simulations.
 
