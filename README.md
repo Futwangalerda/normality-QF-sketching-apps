@@ -4,7 +4,7 @@ Code to reproduce the results from the paper "Inference in Randomized Least Squa
 
 The methods/ folder includes all functions impleting the methods and simulations.
 
-The main function is sketching_methods.R, and includes all sketching methods for randomized PCA solutions.
+The main function is sketching_methods.R, which includes all sketching methods for randomized PCA solutions.
    
 All results in our paper can be reproduced with the code in experiments/.
 
