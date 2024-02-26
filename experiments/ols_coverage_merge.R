@@ -215,6 +215,8 @@ set.seed(NULL)
 # y1<-as.matrix(dat[,1])
 # X<-scale(X1)
 # y<-scale(y1)
+# n<-nrow(X)
+# p<-ncol(X)
 
 ls<-qr.solve(X,y)
 sum((X%*%ls)^2)/sum(y^2)
@@ -353,7 +355,7 @@ cov0<-apply(accept,2,sum)
 cov<-matrix(cov0,ncol(conf_pa)/(2*length(grid_m)),length(grid_m),byrow=TRUE)
 ratio<-cov/sim  #  rows represent different methods, and columns represent different sketching size m
 ratio
-ci<-function(x){exactci(x,sim,0.95)$conf_pa.int[1:2]} 
+ci<-function(x){exactci(x,sim,0.95)$conf.int[1:2]} 
 int=matrix(0,ncol(conf_pa)/(2*length(grid_m)),2*length(grid_m))
 for(i in 1:(ncol(conf_pa)/(2*length(grid_m)))){
   for(j in 1:length(grid_m)){

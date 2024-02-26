@@ -10,9 +10,9 @@ library(patchwork)
 library(nycflights13)
 library(tidyverse)
 library(MASS)
-setwd('C:/Users/ldwan/Desktop/test111111')
+setwd('C:/Users/Desktop/test')
 
-### NYCflight Dataset
+### NYCflight dataset
 flt<-flights %>% na.omit() #%>% filter(10<= month & month<=12)
 head(flt)
 A <- merge(flt, weather)
